@@ -1,4 +1,4 @@
-import * as motion from "motion/react-client"
+import { motion } from "motion/react"
 function Card({ emoji, hueA, hueB, i }) {
     const hue = (h) => `hsl(${h}, 100%, 50%)`
     const background = `linear-gradient(306deg, ${hue(hueA)}, ${hue(hueB)})`
@@ -61,7 +61,7 @@ const card = {
             style={cardContainer}
             initial="offscreen"
             whileInView="onscreen"
-            viewport={{ amount: 0.8 }}
+            viewport={{ amount: 0.9  }}
         >
             <div style={{ ...splash, background }} />
             <motion.div style={card} variants={cardVariants} className="card">
