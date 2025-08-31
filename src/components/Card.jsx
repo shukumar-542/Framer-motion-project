@@ -25,7 +25,7 @@ const cardContainer = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    position: "relative",
+    position: "relative", 
     paddingTop: 20,
     marginBottom: -120,
 }
@@ -49,8 +49,7 @@ const card = {
     alignItems: "center",
     borderRadius: 20,
     background: "#f5f5f5",
-    boxShadow:
-        "0 0 1px hsl(0deg 0% 0% / 0.075), 0 0 2px hsl(0deg 0% 0% / 0.075), 0 0 4px hsl(0deg 0% 0% / 0.075), 0 0 8px hsl(0deg 0% 0% / 0.075), 0 0 16px hsl(0deg 0% 0% / 0.075)",
+    boxShadow: "0 0 1px hsl(0deg 0% 0% / 0.075), 0 0 2px hsl(0deg 0% 0% / 0.075), 0 0 4px hsl(0deg 0% 0% / 0.075), 0 0 8px hsl(0deg 0% 0% / 0.075), 0 0 16px hsl(0deg 0% 0% / 0.075)",
     transformOrigin: "10% 60%",
 }
 
